@@ -34,8 +34,11 @@ public class Estudiante {
 		this.nombre = nombre;
 		this.apellido = apellido;
 	}
+	public Estudiante() {
+
+	}
 	@Override
 	public String toString() {
-		return "Estudiante [nombre=" + nombre + ", apellido=" + apellido + ", numero=" + numero + "]";
+		return "Estudiante [id=" + numero + ", nombre=" + nombre + ", apellido=" + apellido + "]";
 	}
 }
